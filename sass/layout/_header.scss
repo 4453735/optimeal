@@ -1,0 +1,38 @@
+.header {
+  background-color: yellowgreen;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 230px;
+  height: 120px;
+  margin-right: 12.5rem;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFF6EF;
+  box-shadow: 0px 7px 8px rgba(97, 123, 163, 0.21);
+  padding: 3.5rem 3rem 3rem 3rem;
+}
+
+.nav {
+  flex: 1;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.nav-list--link {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
